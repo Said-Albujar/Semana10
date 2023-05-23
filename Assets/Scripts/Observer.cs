@@ -5,9 +5,9 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Observer : Puntaje
 {
-    public override void Score(int value)
+    public override void CambioPuntaje(int value)
     {
         score += value;
-        GameManager.Instance.AumentarPuntaje(value);
+        GameManager.instance.Aumentar(score);
     }
 }

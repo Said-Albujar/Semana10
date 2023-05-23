@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9812173be92624cae87c000e81e6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntajeTexto: {fileID: 1507195928}
+  puntajes: {fileID: 1507195928}
 --- !u!4 &290819901
 Transform:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 290819900}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: AumentarPuntaje
+        m_MethodName: Aumentar
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1085,7 +1085,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 290819900}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: AumentarPuntaje
+        m_MethodName: Aumentar
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1354,7 +1354,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 290819900}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: AumentarPuntaje
+        m_MethodName: Aumentar
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
